@@ -20,7 +20,7 @@
         var quizEngine = null;
         $(function () {
             var selectedQuiz = location.href;
-			
+
 			if (selectedQuiz.indexOf('?') > -1) {
 			    selectedQuiz = selectedQuiz.substr(selectedQuiz.indexOf('?') + 1);
 				if (selectedQuiz.indexOf('#') > -1) {
@@ -220,9 +220,32 @@
                             </a>
                         </h4>
                     </div>
-                    <div id="collapseObj5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingObj5">
+                    <div id="collapseObj5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingObj5">
                         <div class="panel-body">
-                            No practice tests have been created for this objective yet.
+                            <p>
+                                Integrate an app with Azure Active Directory<br/>
+                                Develop apps that use WS-federation, OAuth, and SAML-P endpoints; query the directory using graph API
+                            </p>
+                            <p>
+                                Configure a virtual network<br/>
+                                Deploy a VM into a virtual network, deploy a cloud service into a virtual network
+                            </p>
+                            <p>
+                                Modify network configuration<br/>
+                                Modify a subnet, import and export network configuration
+                            </p>
+                            <p>
+                                Design and implement a communication strategy<br/>
+                                Develop messaging solutions using service bus queues, topics, relays, and notification hubs; create service bus namespaces and choose a tier; scale service bus
+                            </p>
+                            <p>
+                                Monitor communication<br/>
+                                Monitor service bus queues, topics, relays, and notification hubs
+                            </p>
+                            <p>
+                                Implement caching<br/>
+                                Implement Redis caching, implement Azure Cache Service
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -287,7 +310,7 @@
                     </div>
                 </div>
             </div>
-        
+
         </div>
 
         <div id="jsQuizEngine">
