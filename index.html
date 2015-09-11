@@ -20,7 +20,7 @@
         var quizEngine = null;
         $(function () {
             var selectedQuiz = location.href;
-			
+
 			if (selectedQuiz.indexOf('?') > -1) {
 			    selectedQuiz = selectedQuiz.substr(selectedQuiz.indexOf('?') + 1);
 				if (selectedQuiz.indexOf('#') > -1) {
@@ -220,7 +220,7 @@
                             </a>
                         </h4>
                     </div>
-                    <div id="collapseObj5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingObj5">
+                    <div id="collapseObj5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingObj5">
                         <div class="panel-body">
                             <p>
                                 Integrate an app with Azure Active Directory<br/>
@@ -310,7 +310,7 @@
                     </div>
                 </div>
             </div>
-        
+
         </div>
 
         <div id="jsQuizEngine">
